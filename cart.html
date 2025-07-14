@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adisport - Giỏ hàng</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Adisport</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="products.html">Sản phẩm</a></li>
+                <li><a href="#about">Giới thiệu</a></li>
+                <li><a href="cart.html">Giỏ hàng</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="cart-page">
+        <h2>Giỏ hàng của bạn</h2>
+        <div id="cart-list">
+            <!-- Sản phẩm trong giỏ sẽ được render bằng JS -->
+        </div>
+        <div class="cart-summary">
+            <span id="cart-total"></span>
+            <button class="btn" id="checkout-btn">Thanh toán</button>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Adisport. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
